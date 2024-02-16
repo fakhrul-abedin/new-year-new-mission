@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Merriweather", serif;
+    /* font-family: "Inter", sans-serif; */
+}
+section{
+    max-width: calc(100% - 140px);
+    margin: 50px auto 80px;
+}
+
+/* Banner Section */
+.banner-section{
+    background-image: url('../images/Banner\ Image.png');
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2)); */
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 92px;
+    color: #fff;
+}
+.banner-content h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+}
+/* Banner Section Ends */
+
+/* Off Section */
+.off-section{
+    text-align: center;
+}
+
+.off-section h1{
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 900;
+    line-height: 1;
+    color: #FF0000;
+}
+.off-section h4{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FF0000;
+}
+.off-section h2{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: #070211;
+}
+
+/* Off Section Ends */
+
+/* Midnight-party Section*/
+
+.midnight-party{
+    background-image: url('../images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+.midnight-party-details{
+    padding: 100px 140px;
+    display: flex;
+}
+.details-info h1{
+    font-size: 64px;
+    line-height: 88px;
+    font-weight: 700;
+    color: #fff;
+}
+.details-info p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff80;
+}
+.details-info button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+/* Midnight-party Section Ends*/
+/* Party-location Section */
+.party-location{
+    background: linear-gradient(to bottom, #FF000060, #fff), rgba(0,0,0,0.2);
+    height: 470px;
+}
+.event-details{
+    padding: 100px 0;
+    margin: 0px auto;
+    text-align: center;
+}
+.event-details h3{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #070211;
+    text-transform: uppercase;
+}
+.event-details span{
+    color: #FF0000;
+    text-transform: capitalize;
+}
+.event-details button{
+    background-color: #FF0000;
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* party-location Section Ends*/
+
+/*Upcoming Section */
+
+.upcoming-events{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.events-1{
+    width: 400px;
+}
+.events-1 h6{
+    font-family: "Inter",sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    color: #FF0000;
+}
+.events-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    color: #070211;
+    margin: 16px 0;
+}
+.events-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #07021160;
+}
+.events-3{
+    width: 300px;
+}
+.events-3 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    color: #FF0000;
+    
+}
+.events-3 p{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #07021160;
+    margin: 16px 0;
+}
+
+.events-2 img{
+    width: 360px;
+    height: 360px;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+/*Upcoming Section Ends*/
+
+/* Holiday sales section */
+
+.holiday-sales-section-elements{
+    text-align: center;
+}
+.holiday-sales-section-elements h6{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #070211;
+}
+.holiday-sales-section-elements h1{
+    
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 700;
+    color: #070211;
+    margin: 10px 0;
+}
+.holiday-sales-section-elements h1 span{
+    color: #FF0000;
+}
+.holiday-sales-section-elements p{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #07021160;
+    width: 75%;
+    margin: 0 auto;
+ }
+
+ .holiday-sales-banner{
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 75px;
+ }
+ .left-image img{
+    width: 100%;
+ }
+.right-image{
+    position: relative;
+}
+.right-image img{
+    margin-top: 10px;
+}
+.sales{
+    position: absolute;
+    left: -150px;
+    top: 50px;
+}
+/* Holiday sales section ends*/
+
+
+/* portfolio-gifts-section Section*/
+.portfolio-gifts-section-details h4{
+    font-family: "Inter",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FF0000;
+}
+.portfolio-gifts-section-details h2{
+    font-family: "Inter",sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: #070211;
+}
+.portfolio-gifts-section-details p{
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #07021180;
+}
+.portfolio-gifts-cards-gallery{
+    display: flex;
+}
+.gifts-cards{
+    width: 424px;
+    /* height: 450px; */
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.gifts-cards img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* portfolio-gifts-section Section Ends*/
+/* subscription-section */
+.subscription-section{
+   
+    background-color: #FF000010;
+}
+.subscription-section-details{
+    text-align: center;
+    padding: 100px 0;
+}
+.subscription-section-details img{
+    width: 150px;
+    height: 150px;
+}
+.subscription-section-details h2{
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 900;
+    color: #070211;
+}
+.subscription-section-details p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #07021160;
+}
+.subscription-section-details .input-field{
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 650px;
+    height: 72px;
+    overflow: hidden;
+}
+.subscription-section-details .input-field form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.subscription-section-details .input-field form input{
+    border: none;
+    height: 100%;
+    width: 65%;
+    padding-left: 50px;
+}
+.subscription-section-details .input-field form input:focus{
+    outline: none;
+}
+.subscription-section-details .input-field form button{
+    border: none;
+    height: 100%;
+    width: 35%;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+/* subscription-section ends*/
+
+/* footer */
+footer{
+    background-color: #070211;
+   
+    padding: 140px 120px;
+}
+
+.footer-contact,.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact p,.footer-copyright p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.footer-contact .contact p{
+    display: flex;
+}
+.footer-contact .contact p > img{
+    margin-right: 10px;
+}
+
+footer hr{
+    margin: 50px 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff15;
+    padding: 0;
+}
+
+.footer-logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+}
+
+
+/* footer ends*/
